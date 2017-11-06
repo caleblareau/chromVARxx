@@ -1,0 +1,35 @@
+Package: chromVARxx
+Type: Package
+Title: Augmented functionality for analysis of epigenomic variance
+Version: 0.1.0
+Date: 2017-08-08
+Authors@R: c(
+    person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu", role = c("aut", "cre"))
+    )
+Maintainer: Caleb Lareau <caleblareau@g.harvard.edu>
+Author: Caleb Lareau [aut, cre]
+Description: Collection of functions for characterizing epigenomic variance.
+Imports:
+    methods,
+    BiocGenerics,
+    BiocParallel,
+    chromVAR,
+    chromVARmotifs,
+    motifmatchr,
+    SummarizedExperiment,
+    Matrix,
+    GenomicRanges,
+    S4Vectors
+License: MIT + file LICENSE
+LazyData: TRUE
+Suggests:
+    knitr,
+    doParallel,
+    rmarkdown,
+    testthat,
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+biocViews: Preprocessing, QualityControl, Visualization, DataImport,
+    SingleCell, GO
+NeedsCompilation: no
+

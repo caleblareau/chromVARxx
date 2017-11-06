@@ -1,2 +1,8 @@
 # chromVARxx
-Additional functions added to chromVAR
+Buenrostro Lab updates/added functionality to chromVAR
+
+### Installation:
+
+```
+devtools::install_github("caleblareau/chromVARxx")
+```
