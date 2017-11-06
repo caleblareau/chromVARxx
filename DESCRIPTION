@@ -1,8 +1,8 @@
 Package: chromVARxx
 Type: Package
 Title: Augmented functionality for analysis of epigenomic variance
-Version: 0.1.0
-Date: 2017-08-08
+Version: 0.1.1
+Date: 2017-11-05
 Authors@R: c(
     person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu", role = c("aut", "cre"))
     )
