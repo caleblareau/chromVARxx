@@ -1,5 +1,5 @@
 # chromVARxx
-Buenrostro Lab updates/added functionality to chromVAR
+Caleb updates/added functionality to chromVAR
 
 ### Installation:
 

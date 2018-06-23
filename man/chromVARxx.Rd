@@ -4,9 +4,8 @@
 \name{chromVARxx}
 \alias{chromVARxx}
 \alias{chromVARxx-package}
-\title{chromVARxx: Buenrostro Lab chromVAR extensions}
+\title{chromVARxx: Caleb's extensions to the chromVAR package}
 \description{
 The chromVARxx package contains functions to augment
-chromVAR functionality designed in the Buenrostro
-lab
+chromVAR functionality implemented by Caleb Lareau
 }

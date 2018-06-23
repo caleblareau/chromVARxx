@@ -1,8 +1,7 @@
-#' chromVARxx: Buenrostro Lab chromVAR extensions
+#' chromVARxx: Caleb's extensions to the chromVAR package
 #'
 #' The chromVARxx package contains functions to augment
-#' chromVAR functionality designed in the Buenrostro
-#' lab
+#' chromVAR functionality implemented by Caleb Lareau
 #' 
 #' @docType package
 #' @name chromVARxx

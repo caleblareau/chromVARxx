@@ -17,3 +17,15 @@ test_that("Bagging deviations reduces the feature space", {
     expect_equal(dim(object)[1], 1346)
     expect_equal(dim(baggedm)[1], 5)
 })
+
+context("New import getCounts functions do what we think that they should")
+
+test_that("getCountsByID creates a proper SummarizedExperiment object", {
+    
+    bamfile <-paste0(system.file('raw',package='chromVARxx'),'/chr1.barcode.small.bam')
+    peaks <- chromVAR::getPeaks(paste0(system.file('raw',package='chromVARxx'),'/chr1.peaks.small.bed'))
+    barcodeTag <- "CB"
+    SE <- getCountsByID(bamfile, peaks, barcodeTag, mapqFilter=0)
+    expect_equal(dim(SE)[1], 18427)
+    expect_equal(dim(SE)[2], 2748)
+})
